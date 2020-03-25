@@ -6,22 +6,22 @@
         <title>Joe - About</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Noto+Serif:700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
       </head>
 
-<body class="container">
+<body class="container-fluid" style="background-color:gainsboro; background-size:100% 100%;">
     <!--Row across top of page - includes header and navbar-->
     <header class="row">
         <!--Header at the top of the page-->
-        <h1 class="col-sm-12 col-md-4 page-header" style="display: inline; text-align: center; background-color: #009999; padding:30px; color:white; font-family: 'Noto Serif', serif;">
+        <h2 class="col-sm-12 col-md-4 page-header" style="display: inline; text-align: center; background-color: #009999; padding:30px; color:white; font-family: 'Noto Serif', serif;">
             <strong>Joe Dodgson</strong>
-        </h1>
+        </h2>
 
         <!--Nav bar beside / below heading-->
         <nav class="col-sm-12 col-md-4 navbar navbar-expand-sm bg-white justify-content-center" style="display: inline;">
 
             <!-- Links -->
-            <ul class="navbar-nav">
+            <ul class="navbar-nav" style="text-align: center;">
               <li class="nav-item">
                 <a class="nav-link" href="./index.html" style="color: grey;">About</a>
               </li>
@@ -35,6 +35,27 @@
         </nav>
 
     </header>
+
+    <content class="row" style="margin: 20px; background-color: white; padding:20px">
+        <!--'About me' header-->
+        <h2 class="col-md-12 col-lg-8" style="display: inline; background-color: white; padding:30px; color:#009999; font-family: 'Noto Serif', serif;">
+          <strong>About Me</strong>
+          <hr>
+        </h2>
+        <!--'About me' article-->
+        <article style="margin-top: -10px;">
+            <!--Image of me at my wedding-->
+            <img class="col-sm-12 col-md-6 col-lg-3" src="./assets/images/Joe-wedding.jpg" alt="Joe-wedding" style="float: left; padding:0px 30px 15px 0px;"/>
+            <!--Some text about me-->
+            <p style="font-family: 'Open Sans', sans-serif; color:grey; line-height: 30px;">
+              Hi everybody and welcome to my website! I am Joe Dodgson, a Civil Engineer with a keen interest in software development. I'm excited to be taking my first big steps into a career in software development.
+              <br>
+              <br>
+              I was born and raised in Lichfield and I now live with my wife, Helen, in an apartment in Dickens Heath (Solihull). Helen and I got married last year in the north-west of England at a church in the village of Marple Bridge.
+            </p>
+        </article>
+
+    </content>
 
 </body>
 </html>
