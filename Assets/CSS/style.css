@@ -1,0 +1,105 @@
+body {
+    background-color: gainsboro;
+    background-size:100% 100%;
+}
+
+.header-display {
+    display: inline;
+    text-align: center;
+    background-color: #009999;
+    color:white;
+    font-family: 'Noto Serif', serif;
+}
+
+h2 {
+    display: inline;
+    background-color: white;
+    color:#009999;
+    font-family: 'Noto Serif', serif;
+    padding: 10px;
+}
+
+h3 {
+    margin-top: 14px;
+    height: 40px;
+}
+
+.navbar-joe {
+    display: inline;
+    text-align: center;
+    background-color:white;
+    color:grey;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.margin-4t {
+    margin-top: 4px;
+}
+
+.nav-link-joe {
+    color: grey;
+    font-size: 17px;
+}
+
+.vertical-line {
+    border-left: 1px solid grey;
+    height: 30px;
+    margin: 5px 1px;
+}
+
+main {
+    background-color: transparent;
+}
+
+article {
+    width:100%;
+}
+
+.mb70 {
+    margin-bottom: 70px;
+}
+
+.index-cols {
+    margin: 20px 20px 100px 20px; 
+    background-color: white; 
+    padding: 20px;
+}
+
+.mt-10 {
+    margin-top: -10px;
+}
+
+.index-image {
+    padding-left:10px; 
+    margin: 0px 20px 10px 0px; 
+    float: left; 
+    display:inline;
+}
+
+.index-text {
+    font-family: 'Open Sans', sans-serif; 
+    color:grey; 
+    line-height: 30px; 
+    padding: 20px; 
+    margin-top: -25px;
+}
+
+.footer-main {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+}
+
+.footer-line {
+    height:7px;
+    background-color: #009999;
+    margin-bottom: 20px;
+}
+
+.footer-text {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+}
