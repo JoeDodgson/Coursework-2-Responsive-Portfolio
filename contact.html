@@ -62,43 +62,36 @@
       </div>
     </header>
 
-    <main class="row" style="margin: 20px; background-color: white; padding:20px">
-        <!--'About me' header-->
-        <h2 class="col-md-12 col-lg-8" style="display: inline; background-color: white; padding:30px; color:#009999; font-family: 'Noto Serif', serif;">
-          <strong>Contact</strong>
-          <hr>
-        </h2>
-        <!--Contact form-->
+    <main style="margin-bottom: 70px;">
+      <div class="row">
+        <div class="col-md-12 col-lg-8"  style="margin: 20px; background-color: white; padding:20px">
 
-        <form>
-            <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
+          <!--'Contact' header-->
+          <h2 style="display: inline; background-color: white; color:#009999; font-family: 'Noto Serif', serif;">
+            <strong>Contact</strong>
+          </h2>
+          <hr>
+
+          <!--Contact form-->
+          <form>
+              <div class="form-group">
+                <label>Name</label>
+                <input type="name" class="form-control" placeholder="Name">
+              </div>
+              <div class="form-group">
+                <label>Email address</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-            </div>
-            <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-            </div>
-            <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-
-        <!---****************************
-        <form style="margin-top: -10px;">
-            <img class="col-sm-12 col-md-6 col-lg-3" src="./assets/images/Joe-wedding.jpg" alt="Joe-wedding" style="float: left; padding:0px 30px 15px 0px;"/>
-            <p style="font-family: 'Open Sans', sans-serif; color:grey; line-height: 30px;">
-              Hi everybody and welcome to my website! I am Joe Dodgson, a Civil Engineer with a keen interest in software development. I'm excited to be taking my first big steps into a career in software development.
-              <br>
-              <br>
-              I was born and raised in Lichfield and I now live with my wife, Helen, in an apartment in Dickens Heath (Solihull). Helen and I got married last year in the north-west of England at a church in the village of Marple Bridge.
-            </p>
-        </form>
-        -->
-      </main>
+              </div>
+              <div class="form-group">
+                <label>Message</label>
+                <input type="message" class="form-control" style="height: 250px;">
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </main>
 
     <!--Page footer-->
     <footer style="position: fixed; left: 0; bottom: 0; width: 100%;  background-color: grey;">
