@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Joe - About</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Serif:700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+        
+        <style>
+          @media (max-width: 767px) {
+            .navbar {
+              flex: 100%;
+              max-width: 100%;
+              text-align: center;
+              float: none;
+            }
+          }
+      
+          @media (min-width: 768px) and (max-width: 2000px) {
+            .navbar {
+              float: right !important;
+            }
+          }
+        </style>
+
+      </head>
+
+<body class="container-fluid" style="background-color:gainsboro; background-size:100% 100%;">
+    <!--Header across top of page - includes logo and navbar-->
+    <header>
+      <div class="row">
+        <div class="col-sm-12 col-md-4 col-lg-3 pull-left"  style="display: inline; text-align: center; background-color: #009999; color:white; font-family: 'Noto Serif', serif;">
+          <!--Logo at the top of the page-->
+          <h3 style="margin-top: 14px; height:40px">
+            <strong>Joe Dodgson</strong>
+          </h3>
+        </div>
+
+        <div class="col-sm-12 col-md-8 col-lg-9"  style="display: inline; text-align: center; background-color:white; color:grey; font-family: 'Open Sans', sans-serif;">
+
+          <!--Nav bar beside / below heading-->
+          <nav class="navbar navbar-expand-sm bg-white text-center" style="margin-top: 4px;">
+
+              <!-- Links -->
+              <ul class="navbar-nav text-right list-inline pull-right">
+                <li class="nav-item list-inline-item">
+                  <a class="nav-link" href="./index.html" style="color: grey; font-size: 17px;">About</a>
+                </li>
+                <div style="border-left: 1px solid grey; height: 30px; margin: 5px 1px"></div>
+                <li class="nav-item list-inline-item">
+                  <a class="nav-link" href="./experience.html" style="color: grey; font-size: 17px;">Experience</a>
+                </li>
+                <div style="border-left: 1px solid grey; height: 30px; margin: 5px 1px"></div>
+                <li class="nav-item list-inline-item">
+                  <a class="nav-link" href="./contact.html" style="color: grey; font-size: 17px;">Contact</a>
+                </li>
+              </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="row" style="margin: 20px; background-color: white; padding:20px">
+        <!--'About me' header-->
+        <h2 class="col-md-12 col-lg-8" style="display: inline; background-color: white; padding:30px; color:#009999; font-family: 'Noto Serif', serif;">
+          <strong>Contact</strong>
+          <hr>
+        </h2>
+        <!--Contact form-->
+
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        <!---****************************
+        <form style="margin-top: -10px;">
+            <img class="col-sm-12 col-md-6 col-lg-3" src="./assets/images/Joe-wedding.jpg" alt="Joe-wedding" style="float: left; padding:0px 30px 15px 0px;"/>
+            <p style="font-family: 'Open Sans', sans-serif; color:grey; line-height: 30px;">
+              Hi everybody and welcome to my website! I am Joe Dodgson, a Civil Engineer with a keen interest in software development. I'm excited to be taking my first big steps into a career in software development.
+              <br>
+              <br>
+              I was born and raised in Lichfield and I now live with my wife, Helen, in an apartment in Dickens Heath (Solihull). Helen and I got married last year in the north-west of England at a church in the village of Marple Bridge.
+            </p>
+        </form>
+        -->
+      </main>
+
+    <!--Page footer-->
+    <footer style="position: fixed; left: 0; bottom: 0; width: 100%;  background-color: grey;">
+        <!--Coloured bar at the top of the footer-->
+          <div class="row" style="height:7px; background-color: #009999; margin-bottom: 20px;">
+          </div>
+  
+          <div class="row container-fluid">
+          <!--Copyright message-->
+            <p  style="font-family: 'Open Sans', sans-serif; color: white; text-align: center;">
+              © 2020 Copyright Joe Dodgson
+            </p>
+          </div>
+      </footer>
+</body>
+</html>
