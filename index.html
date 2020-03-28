@@ -1,143 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Joe - About</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Noto+Serif:700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-        <link href="./assets/css/style.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joe - About</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+   </head>
 
-        <style>
-          @media (max-width: 767px) {
-            .navbar {
-              flex: 100%;
-              max-width: 100%;
-              text-align: center;
-              float: none;
-            }
-          }
-      
-          @media (min-width: 768px) and (max-width: 2000px) {
-            .navbar {
-              float: right !important;
-            }
-          }
+  <body class="container-fluid">
 
-          @media (min-width: 0px) and (max-width: 767px) {
-            .index-image {
-              width: 98%;
-            }
-          }
+    <!--Header across top of page - includes logo and navbar-->
+    <header>
 
-          @media (min-width: 768px) and (max-width: 991px) {
-            .index-image {
-              width: 350px;
-            }
-          }
+      <div class="row">
 
-          @media (min-width: 992px) and (max-width: 2000px) {
-            .index-image {
-              width: 225px;
-            }
-          }
+        <div class="col-sm-12 col-md-4 col-lg-3 pull-left header-display">
 
-          @media (min-width: 768px) and (max-width: 991px) {
-            .md-95 {
-              max-width: 95%;
-            }
-          }
-        </style>
+          <!--Logo at the top of the page-->
+          <h3>
+            <strong>Joe Dodgson</strong>
+          </h3>
 
-      </head>
+        </div>
 
-<body class="container-fluid">
-  <!--Header across top of page - includes logo and navbar-->
-  <header>
-    <div class="row">
-      <div class="col-sm-12 col-md-4 col-lg-3 pull-left header-display">
-        <!--Logo at the top of the page-->
-        <h3>
-          <strong>Joe Dodgson</strong>
-        </h3>
-      </div>
+        <!--Nav bar beside heading - only displays for size 768px and above-->
+        <div class="col-md-8 col-lg-9 navbar-joe disappear-md">
+          
+          <nav class="navbar navbar-expand-sm bg-white text-center">
 
-      <div class="col-sm-12 col-md-8 col-lg-9 navbar-joe">
+            <!-- Links -->
+            <ul class="navbar-nav text-right list-inline pull-right mt4">
 
-        <!--Nav bar beside / below heading-->
-        <nav class="navbar navbar-expand-sm bg-white text-center">
+              <li class="nav-item list-inline-item">
+                <a class="nav-link nav-link-joe" href="./index.html">About</a>
+              </li>
 
-          <!-- Links -->
-          <ul class="navbar-nav text-right list-inline pull-right margin-4t">
+              <div class="vertical-line"></div>
 
-            <li class="nav-item list-inline-item">
-              <a class="nav-link nav-link-joe" href="./index.html">About</a>
-            </li>
+              <li class="nav-item list-inline-item">
+                <a class="nav-link nav-link-joe" href="./experience.html">Experience</a>
+              </li>
 
-            <div class="vertical-line"></div>
+              <div class="vertical-line"></div>
+              
+              <li class="nav-item list-inline-item">
+                <a class="nav-link nav-link-joe" href="./contact.html">Contact</a>
+              </li>
 
-            <li class="nav-item list-inline-item">
-              <a class="nav-link nav-link-joe" href="./experience.html">Experience</a>
-            </li>
+            </ul>
 
-            <div class="vertical-line"></div>
-            
-            <li class="nav-item list-inline-item">
-              <a class="nav-link nav-link-joe" href="./contact.html">Contact</a>
-            </li>
-          </ul>
-        </nav>
+          </nav>
+
+        </div>
 
       </div>
 
-    </div>
+      <!--Nav bar below heading - only displays for size 767px and below-->
+      <div class ="disappear-lg row">
 
-  </header>
+          <nav class="navbar navbar-expand-sm bg-white">
 
-  <main class="mb70">
-    <div class="row">  
-      <div class="col-md-12 col-lg-8 md-95 index-cols">
-        <!--'About me' header-->
-        <h2>
-          <strong>About Me</strong>
+            <!-- Links -->
+            <ul class="navbar-nav list-inline w100">
+              
+              <!--Blank space to left of nav links-->
+              <div class="w30"></div>
+
+              <li class="nav-item list-inline-item w12">
+                <a class="nav-link nav-link-joe" href="./index.html">About</a>
+              </li>
+
+              <div class="vertical-line"></div>
+
+              <li class="nav-item list-inline-item w16">
+                <a class="nav-link nav-link-joe" href="./experience.html">Experience</a>
+              </li>
+              
+              <div class="vertical-line"></div>
+
+              <li class="nav-item list-inline-item w12">
+                <a class="nav-link nav-link-joe" href="./contact.html">Contact</a>
+              </li>
+
+              <!--Blank space to right of nav links-->
+              <div class="w30"></div>
+
+            </ul>
+          </nav>
+
+      </div>
+
+    </header>
+
+    <!--Main content of web page-->
+    <main class="mb70">
+
+      <div class="row">  
+
+        <div class="col-md-12 col-lg-8 md-95 index-cols">
+
+          <!--'About me' header-->
+          <h2>
+            <strong>About Me</strong>
+          </h2>
+
           <hr>
-        </h2>
 
-        <article class="mt-10">
-          <div class="row">
-            <div>
-              <!--Image - wedding-->
-              <img class="index-image" src="./assets/images/Joe-wedding.jpg" alt="Joe-wedding"/>
-              <!--Text - about me-->
+          <!--Text and image beneath the 'About me' header-->
+          <article class="mt10">
 
-              <p class="index-text">
-                Hi everybody and welcome to my website! I am Joe Dodgson, a Civil Engineer with a keen interest in software development. I'm excited to be taking my first big steps into a career in software development.
-                <br>
-                <br>
-                I was born and raised in Lichfield and I now live with my wife, Helen, in an apartment in Dickens Heath (Solihull). Helen and I got married last year in the north-west of England at a church in the village of Marple Bridge.
-              </p>
+            <div class="row">
+              
+              <div>
+
+                <!--Image - wedding-->
+                <img class="index-image" src="./assets/images/Joe-wedding.jpg" alt="Joe-wedding"/>
+                
+                <!--Text - about me-->
+                <p class="index-text">
+                  Hi everybody and welcome to my website! I am Joe Dodgson, a Civil Engineer with a keen interest in software development. I'm excited to be taking my first big steps into a career in software development.
+                  <br>
+                  <br>
+                  I was born and raised in Lichfield and I now live with my wife, Helen, in an apartment in Dickens Heath (Solihull). Helen and I got married last year in the north-west of England at a church in the village of Marple Bridge.
+                </p>
+
+              </div>
+
             </div>
-          </div>
-        </article>
+
+          </article>
+
+        </div>
+
       </div>
-    </div>
-  </main>
 
-    <!--Page footer-->
-  <footer class="footer-main">
+    </main>
 
-    <!--Coloured bar at the top of the footer-->
-    <div class="row footer-line"></div>
+      <!--Page footer-->
+    <footer class="footer-main">
 
-    <div class="row container-fluid">
-      <div class="col-lg-12">
-        <!--Copyright message-->
-        <p  class="footer-text">
-          © 2020 Copyright Joe Dodgson
-        </p>
-    </div>
-    </div>
-  </footer>
-</body>
+      <!--Coloured bar at the top of the footer-->
+      <div class="row footer-line"></div>
+
+      <div class="row container-fluid">
+
+        <div class="col-lg-12">
+
+          <!--Copyright message-->
+          <p  class="footer-text">
+            © 2020 Copyright Joe Dodgson
+          </p>
+
+        </div>
+
+      </div>
+
+    </footer>
+
+  </body>
+
 </html>

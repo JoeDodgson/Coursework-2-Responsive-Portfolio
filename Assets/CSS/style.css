@@ -1,8 +1,20 @@
+/* Body - grey background */
 body {
-    background-color: gainsboro;
-    background-size:100% 100%;
+  background-color: gainsboro;
+  background-size:100% 100%;
 }
 
+/* Main container - transparent */
+main {
+    background-color: transparent;
+}
+
+/* Article container - full width */
+article {
+    width:100%;
+}
+
+/* Headers - colour and font */
 .header-display {
     display: inline;
     text-align: center;
@@ -24,6 +36,7 @@ h3 {
     height: 40px;
 }
 
+/* Navbar */
 .navbar-joe {
     display: inline;
     text-align: center;
@@ -32,41 +45,58 @@ h3 {
     font-family: 'Open Sans', sans-serif;
 }
 
-.margin-4t {
-    margin-top: 4px;
-}
-
 .nav-link-joe {
-    color: grey;
-    font-size: 17px;
+  color: grey;
+  font-size: 17px;
 }
 
+/* Vertical line for separating nav links */
 .vertical-line {
     border-left: 1px solid grey;
     height: 30px;
     margin: 5px 1px;
 }
 
-main {
-    background-color: transparent;
+/* Margins*/
+.mt4 {
+  margin-top: 4px;
 }
 
-article {
-    width:100%;
+.mt10 {
+    margin-top: -10px;
 }
 
 .mb70 {
     margin-bottom: 70px;
 }
 
+/* Width styling */
+.w100{
+  width:100%;
+}
+
+.w30{
+  width:100%;
+}
+
+.w16{
+  width:100%;
+}
+
+.w12{
+  width:100%;
+}
+
+/* Height styling */
+.h250 {
+    height: 250px;
+}
+
+/* Specific styling on index.html */
 .index-cols {
     margin: 20px 20px 100px 20px; 
     background-color: white; 
     padding: 20px;
-}
-
-.mt-10 {
-    margin-top: -10px;
 }
 
 .index-image {
@@ -84,6 +114,40 @@ article {
     margin-top: -25px;
 }
 
+/* Specific styling on experience.html */
+.experience-cols {
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+}
+
+.experience-article {
+    text-align: center;
+    margin: 10px 0px 20px;
+    float: left;
+    position:relative;
+    color: white;
+}
+
+.article-text {
+    font-family: 'Open Sans', sans-serif;
+    background: #009999;
+    height:40px;
+    width:100%;
+    padding-top: 8px;
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+}
+
+/* Specific styling on contact.html */
+.contact-cols {
+    margin: 20px;
+    background-color: white;
+    padding:20px;
+}
+
+/* Footer styling */
 .footer-main {
     position: fixed;
     left: 0;
@@ -103,3 +167,55 @@ article {
     color: white;
     text-align: center;
 }
+
+/* Media queries */
+@media (min-width: 0px) and (max-width: 767px) {
+    .disappear-md {
+      display: none;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 2000px) {
+    .disappear-lg {
+      display: none;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .navbar {
+      flex: 100%;
+      max-width: 100%;
+      text-align: center;
+      float: none;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 2000px) {
+    .navbar {
+      float: right !important;
+    }
+  }
+
+  @media (min-width: 0px) and (max-width: 767px) {
+    .index-image {
+      width: 98%;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .index-image {
+      width: 350px;
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 2000px) {
+    .index-image {
+      width: 225px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .md-95 {
+      max-width: 95%;
+    }
+  }
