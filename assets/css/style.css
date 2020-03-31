@@ -9,8 +9,8 @@ main {
     background-color: transparent;
 }
 
-/* Article container - full width */
-article {
+/* Figure container - full width */
+figure {
     width:100%;
 }
 
@@ -121,7 +121,7 @@ h3 {
     padding: 20px;
 }
 
-.experience-article {
+.experience-figure {
     text-align: center;
     margin: 10px 0px 20px;
     float: left;
@@ -129,7 +129,7 @@ h3 {
     color: white;
 }
 
-.article-text {
+.figure-text {
     font-family: 'Open Sans', sans-serif;
     background: #009999;
     height:40px;
